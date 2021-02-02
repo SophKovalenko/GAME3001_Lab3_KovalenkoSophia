@@ -68,9 +68,6 @@ void PlayScene::GUI_Function() const
 {
 	// Always open with a NewFrame
 	ImGui::NewFrame();
-
-	// See examples by uncommenting the following - also look at imgui_demo.cpp in the IMGUI filter
-	//ImGui::ShowDemoWindow();
 	
 	ImGui::Begin("GAME3001 - Lab 3", NULL, ImGuiWindowFlags_AlwaysAutoResize | ImGuiWindowFlags_MenuBar);
 	
