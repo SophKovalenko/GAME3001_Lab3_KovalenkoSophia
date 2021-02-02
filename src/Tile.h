@@ -5,6 +5,7 @@
 
 class Tile : public DisplayObject
 {
+public:
 	Tile();
 
 	~Tile();
